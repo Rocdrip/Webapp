@@ -11,6 +11,7 @@ body {
     margin: 0px;    /* elimina tots els marges del document */
     font-family: sans-serif;    /* un tipus de lletra adient per a llocs web */
     background-color: #cfe5fa;    /* color de fons en format #RRGGBB */
+    color: #198cec;    /* color del text */
 }
 #superior {
     display: flex;
@@ -30,7 +31,7 @@ body {
     justify-content: center;    /* contingut centrat en la direcció de disposició */
     align-items: center;    /* contingut centrat en la direcció transversal */
     font-size: 4vmax;
-    color: #198cec;    /* color del text */
+    color: #cfe5fa;    /* color del text */
 }
 #menu {
     height: 8vmax;    /* alçària d'un 8% respecte l'alçària de la pantalla */
@@ -45,4 +46,34 @@ body {
     background-color: #198cec;
     font-size: 5vmax;
     cursor: pointer;    /* en ordinadors, indica que s'hi pot fer clic */
+    #seccio_0 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 4vmax;
+    }
+    #credencials {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        font-size: 3vmax;
+        margin: 5vmin;
+    }
+    #credencials div {    /* els 2 <div> dins de credencials */
+        margin-bottom: 1vmin;
+    }
+    #credencials input {    /* els 2 quadres de text dins de credencials */
+        max-width: 20vmax;    /* es limita l'espai que ocupen els quadres de text */
+        font-size: 3vmax;
+    }
+    #botons_sessio {
+        display: flex;
+        align-items: center;
+    }
+    #botons_sessio button {    /* els 2 botons dins de botons_sessio */
+        font-size: 3vmax;
+        padding: 2vmin;
+        margin: 1vmin;
+    }
 }
