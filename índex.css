@@ -30,7 +30,7 @@ body {
     justify-content: center;    /* contingut centrat en la direcció de disposició */
     align-items: center;    /* contingut centrat en la direcció transversal */
     font-size: 4vmax;
-    color: #cfe5fa;    /* color del text */
+    color: #198cec;    /* color del text */
 }
 #menu {
     height: 8vmax;    /* alçària d'un 8% respecte l'alçària de la pantalla */
