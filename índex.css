@@ -30,6 +30,7 @@ body {
     justify-content: center;    /* contingut centrat en la direcció de disposició */
     align-items: center;    /* contingut centrat en la direcció transversal */
     font-size: 4vmax;
+    color: #cfe5fa;    /* color del text */
 }
 #menu {
     height: 8vmax;    /* alçària d'un 8% respecte l'alçària de la pantalla */
@@ -40,7 +41,7 @@ body {
     display: flex;    /* contenidor flex on centrar-hi la icona */
     justify-content: center;
     align-items: center;
-    color: white;
+    color: cfe5fa;
     background-color: #198cec;
     font-size: 5vmax;
     cursor: pointer;    /* en ordinadors, indica que s'hi pot fer clic */
