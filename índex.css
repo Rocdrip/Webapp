@@ -22,10 +22,8 @@ body {
     color: #cfe5fa;    /* color del text */
     background-color: #198cec;    /* color de fons */
 }
-.seccio {
-    flex: 1;    /* les seccions ocupen tot l'espai disponible */
-    display: none;    /* les seccions s'inicien ocultes, excepte la primera */
-    #seccio_0 {
+
+#seccio_0 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,6 +53,10 @@ body {
     padding: 2vmin;
     margin: 1vmin;
 }
+}
+#seccio {
+    flex: 1;    /* les seccions ocupen tot l'espai disponible */
+    display: none;    /* les seccions s'inicien ocultes, excepte la primera */
 }
 #seccio_1 {
     display: flex;    /* única secció que es mostra a l'inici */
